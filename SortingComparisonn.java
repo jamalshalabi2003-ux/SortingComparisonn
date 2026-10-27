@@ -42,7 +42,7 @@ public class SortingComparisonn {
                 j--;
             }
 
-            // وضع العنصر في موقعه الصحيح
+            // .وضع العنصر في موقعه الصحيح
             arr[j + 1] = key;
         }
     }
