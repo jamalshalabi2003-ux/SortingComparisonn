@@ -52,7 +52,7 @@ public class SortingComparisonn {
         for (int i = 0; i < arr.length - 1; i++) {
             boolean swapped = false;
 
-            // مقارنة العناصر المتجاورة وتبديلها عند الحاجة
+            //. مقارنة العناصر المتجاورة وتبديلها عند الحاجة
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
